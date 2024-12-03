@@ -19,20 +19,21 @@ mouseCoords.py
 
 This script prints the current cursor position every 3 seconds. Use it to find the coordinates of specific screen elements:
 
-python .\mouseCoords.py
-
+python .\mouseCoords.py  
 hit ctrl + C to cancel
 
 To find the correct coordinates for each title. the values are (left, top, width, height) of the timer region per title card. 
-left == x coordinate
-top == y coordinate
-width == pixel distance to the right of the x coordinate
-height == pixel distance below the y coordinate.
+
+left == x coordinate  
+top == y coordinate  
+width == pixel distance to the right of the x coordinate  
+height == pixel distance below the y coordinate.  
 
 In this picture you if you put the mouseCoords.py value of your cursor in the top left you will have your x,y coordinates. Bottom right minus your x, y coordinates will give you width and height. 
 
 ![image](https://github.com/user-attachments/assets/5c7e9bb8-db74-404f-8e2b-f3e77bf77aba)
 
+otherwise you just need the x, y coordinates of each click action. 
 
 # Run Automation Script
 
