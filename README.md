@@ -16,6 +16,7 @@ Install Python 3.12.7
 # How to Find Screen Coordinates
 
 mouseCoords.py
+
 This script prints the current cursor position every 3 seconds. Use it to find the coordinates of specific screen elements:
 
 python .\mouseCoords.py
